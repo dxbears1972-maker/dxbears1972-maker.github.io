@@ -2,251 +2,152 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dxベアーズ｜30分お話を伺って、御社の仕事の流れを1枚にしてお返しします</title>
-<meta name="description" content="福岡県みやま市。製造業の現場に長く関わってきました。30分お話を伺い、いまの仕事の流れと、直せそうなところ3つをA4一枚にまとめてお返しします。無料。1回だけ。">
-<meta property="og:title" content="30分お話を伺って、御社の仕事の流れを1枚にしてお返しします">
-<meta property="og:description" content="無料。1回だけ。売り込みはいたしません。製造業の現場に長くいた人間が、外から見た流れを図にします。">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DXベアーズ</title>
+<meta name="description" content="DXベアーズは、山の会・ハイキングクラブなど小さな会の運営を、担当者がいなくなっても続く形にするお手伝いをしています。福岡県内のハイキングクラブ（会員16名・平均年齢70代）で、全員がご自分の端末で登録を終え、運用しています。">
+<link rel="canonical" href="https://dxbears1972-maker.github.io/">
 <meta property="og:type" content="website">
+<meta property="og:title" content="DXベアーズ">
+<meta property="og:description" content="小さな会の運営を、担当者がいなくなっても続く形にする。山の会・ハイキングクラブ向けの予定共有とマイカー精算。">
+<meta property="og:url" content="https://dxbears1972-maker.github.io/">
+<meta property="og:site_name" content="DXベアーズ">
+<meta name="format-detection" content="telephone=no">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "DXベアーズ",
+  "alternateName": ["Dxベアーズ", "DX Bears"],
+  "url": "https://dxbears1972-maker.github.io/",
+  "email": "dxbears.office@gmail.com",
+  "areaServed": "JP",
+  "description": "山の会・ハイキングクラブなど小さな会の運営を、担当者がいなくなっても続く形にするお手伝いをしています。"
+}
+</script>
 <style>
-:root{
-  --navy:#1b3a5c; --navy2:#2c5580; --bg:#f7f8fa;
-  --ink:#1a1d21; --gray:#5a6470; --accent:#c05621; --line:#dde2e8;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-body{
-  font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;
-  background:var(--bg); color:var(--ink);
-  font-size:17px; line-height:1.85; -webkit-text-size-adjust:100%;
-}
-.wrap{max-width:760px;margin:0 auto;padding:0 22px}
-
-.hero{background:var(--navy);color:#fff;padding:50px 0 44px}
-.hero .name{font-size:15px;color:#9db8d0;letter-spacing:.12em}
-.hero h1{font-size:29px;line-height:1.55;margin:16px 0 0;font-weight:700}
-.hero h1 .em{color:#ffd9a8}
-.hero p{font-size:17px;color:#cfdce8;margin-top:18px}
-.hero .tags{margin-top:22px;display:flex;flex-wrap:wrap;gap:9px}
-.hero .tag{background:rgba(255,255,255,.13);border:2px solid rgba(255,255,255,.45);
-  border-radius:999px;padding:5px 15px;font-size:15px;font-weight:700}
-
-section{padding:44px 0}
-section:nth-of-type(even){background:#fff}
-h2{font-size:24px;color:var(--navy);line-height:1.5;margin-bottom:8px}
-.lead{color:var(--gray);font-size:16px;margin-bottom:22px}
-
-.q{background:#fff;border:2px solid var(--line);border-left:7px solid var(--accent);
-  border-radius:9px;padding:15px 19px;margin-bottom:12px;font-size:17px;font-weight:700}
-section:nth-of-type(even) .q{background:var(--bg)}
-.q span{display:block;font-size:15px;font-weight:400;color:var(--gray);margin-top:5px}
-
-.paper{background:#fff;border:3px solid var(--navy);border-radius:12px;
-  padding:0;margin-top:20px;overflow:hidden}
-section:nth-of-type(even) .paper{background:var(--bg)}
-.paper .ttl{background:var(--navy);color:#fff;padding:11px 18px;font-size:17px;font-weight:700}
-.paper .body{padding:20px}
-.paper .half{border-bottom:2px dashed var(--line);padding-bottom:16px;margin-bottom:16px}
-.paper .half:last-child{border-bottom:none;padding-bottom:0;margin-bottom:0}
-.paper h4{font-size:17px;color:var(--navy2);margin-bottom:6px}
-.paper .ex{font-size:15px;color:var(--gray);background:#eef2f6;border-radius:7px;
-  padding:11px 14px;margin-top:9px;line-height:1.8}
-
-ol.steps{list-style:none;counter-reset:s;margin-top:18px}
-ol.steps li{counter-increment:s;position:relative;padding-left:52px;margin-bottom:18px}
-ol.steps li::before{content:counter(s);position:absolute;left:0;top:2px;
-  width:36px;height:36px;background:var(--navy);color:#fff;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:700}
-ol.steps b{display:block;font-size:18px;margin-bottom:2px}
-ol.steps span{color:var(--gray);font-size:15px}
-
-ul.pts{list-style:none;margin-top:14px}
-ul.pts li{padding-left:28px;position:relative;margin-bottom:12px}
-ul.pts li::before{content:"";position:absolute;left:0;top:10px;
-  width:13px;height:13px;background:var(--accent);border-radius:3px}
-ul.pts b{color:var(--navy)}
-
-.box{background:#fff;border:2px solid var(--line);border-radius:12px;padding:22px;margin-top:18px}
-section:nth-of-type(even) .box{background:var(--bg)}
-.box h3{font-size:19px;color:var(--navy);margin-bottom:9px}
-
-.honest{background:#fff8f2;border:2px solid #e8c9a8;border-radius:12px;padding:20px;margin-top:20px}
-.honest h3{font-size:18px;color:var(--accent);margin-bottom:9px}
-.honest p{font-size:16px}
-
-.cta{background:var(--navy);color:#fff;text-align:center;padding:48px 0}
-.cta h2{color:#fff}
-.cta p{color:#cfdce8;margin-top:14px;font-size:17px}
-.mail{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
-  font-size:19px;font-weight:700;padding:16px 32px;border-radius:11px;margin-top:22px;
-  border:2px solid #fff;word-break:break-all}
-.note{font-size:15px;color:#9db8d0;margin-top:16px;line-height:1.9}
-
-footer{background:#12283f;color:#8fa9c0;padding:24px 0;font-size:15px}
-footer .wrap{line-height:1.9}
-
-@media(max-width:520px){
-  .hero h1{font-size:23px}
-  h2{font-size:20px}
-}
+  :root{
+    --bg:#ffffff;
+    --fg:#1f2328;
+    --muted:#5b6570;
+    --line:#e3e7e4;
+    --green:#2E6B34;
+    --green-soft:#E8F4E9;
+    --accent:#E8A000;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#14171a;
+      --fg:#e9edf0;
+      --muted:#a8b2bb;
+      --line:#2b3238;
+      --green:#7fbf87;
+      --green-soft:#1c2a1f;
+      --accent:#E8A000;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic","Meiryo",system-ui,-apple-system,sans-serif;
+    line-height:1.9;
+    font-size:16.5px;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--line);padding:34px 0 26px}
+  .brand{font-size:26px;font-weight:700;letter-spacing:.06em;color:var(--green);margin:0}
+  .tag{margin:10px 0 0;color:var(--muted);font-size:15px}
+  main{padding:34px 0 10px}
+  h2{
+    font-size:17px;font-weight:700;margin:40px 0 12px;
+    padding-left:11px;border-left:4px solid var(--green);line-height:1.5;
+  }
+  h2:first-of-type{margin-top:0}
+  p{margin:0 0 16px}
+  .lead{
+    background:var(--green-soft);border-radius:10px;
+    padding:18px 20px;margin:0 0 30px;
+  }
+  .lead p{margin:0}
+  .lead strong{font-weight:700}
+  ul{margin:0 0 16px;padding-left:1.25em}
+  li{margin-bottom:8px}
+  .cta{
+    display:block;margin:26px 0 8px;padding:18px 20px;
+    border:1px solid var(--green);border-radius:10px;
+    text-decoration:none;color:inherit;background:transparent;
+  }
+  .cta:hover{background:var(--green-soft)}
+  .cta .t{display:block;font-weight:700;color:var(--green);font-size:16.5px}
+  .cta .d{display:block;color:var(--muted);font-size:14.5px;margin-top:5px;line-height:1.75}
+  .note{color:var(--muted);font-size:14.5px}
+  .contact{
+    border-top:1px solid var(--line);margin-top:44px;padding-top:24px;
+  }
+  .mail{
+    font-size:17px;font-weight:700;word-break:break-all;
+    color:var(--green);text-decoration:none;
+  }
+  footer{
+    border-top:1px solid var(--line);margin-top:34px;
+    padding:20px 0 40px;color:var(--muted);font-size:13.5px;
+  }
+  @media (max-width:520px){
+    body{font-size:16px;line-height:1.85}
+    .brand{font-size:23px}
+    header{padding:26px 0 20px}
+  }
 </style>
 </head>
 <body>
 
-<div class="hero">
+<header>
   <div class="wrap">
-    <div class="name">Dxベアーズ　福岡県みやま市</div>
-    <h1>30分だけ、お話を聞かせてください。<br>
-      <span class="em">御社の仕事の流れを、1枚にしてお返しします。</span></h1>
-    <p>製造業の現場に長くおりました。<br>
-       外から見ると、中にいると見えないものが見えることがあります。</p>
-    <div class="tags">
-      <span class="tag">無料</span>
-      <span class="tag">30分</span>
-      <span class="tag">1回だけ</span>
-      <span class="tag">売り込みません</span>
-    </div>
+    <p class="brand">DXベアーズ</p>
+    <p class="tag">小さな会の運営を、担当者がいなくなっても続く形にする。</p>
   </div>
-</div>
+</header>
 
-<section>
-  <div class="wrap">
-    <h2>こんなことは、ありませんか</h2>
-    <p class="lead">中小の製造業では、よく聞く話です</p>
+<main class="wrap">
 
-    <div class="q">その仕事で、いくら儲かったのか分からない
-      <span>会社全体の数字は月の締めで出るのに、どの仕事で稼いだかが見えない</span></div>
-    <div class="q">同じことを、二度も三度も入力している
-      <span>受注の紙、Excel、生産の板、請求。そのたびに書き写している</span></div>
-    <div class="q">あの人が休むと止まる仕事がある
-      <span>手順が頭の中にあって、書いたものがない</span></div>
-    <div class="q">何かしたほうがいいのは分かるが、どこから手をつけるか
-      <span>業者に相談すると、いきなり大きな話になる</span></div>
+  <div class="lead">
+    <p>福岡県内のハイキングクラブで、山行の予定の共有・出欠のとりまとめ・マイカーの相乗り精算をひとつにしたアプリを作り、いまも運用しています。<strong>会員16名、平均年齢は70代。約2週間半で、16名全員がご自分の端末で登録を終えました。</strong>途中で断念した方はいらっしゃいません。</p>
   </div>
-</section>
 
-<section>
-  <div class="wrap">
-    <h2>お返しするもの</h2>
-    <p class="lead">A4で1枚。それだけです</p>
+  <h2>山の会・ハイキングクラブの皆さまへ</h2>
 
-    <div class="paper">
-      <div class="ttl">◯◯株式会社様　業務の流れと、直せそうなところ</div>
-      <div class="body">
-        <div class="half">
-          <h4>上半分：いま、どうなっているか</h4>
-          <p>伺ったお話をもとに、仕事の流れを図にします。
-             どこで誰が何を使っているか、どこで待ちが出ているか。</p>
-          <div class="ex">受注 → 手書きの受注票 → Excelに転記 → 生産の板に書き出し
-             → 現場 → 完了を口頭で報告 → Excelに戻して転記 → 請求</div>
-        </div>
-        <div class="half">
-          <h4>下半分：直せそうなところを3つ</h4>
-          <p>優先順位をつけて、それぞれ「どのくらいの手間で」「どのくらい効きそうか」
-             を添えます。</p>
-          <div class="ex">1. 転記が3回ある。1回にできる（手間：小／効き：大）<br>
-             2. 完了報告が口頭。ここが抜けると原価が出ない（手間：中／効き：大）<br>
-             3. 受注票が手書き。ここは急がなくてよい（手間：大／効き：中）</div>
-        </div>
-      </div>
-    </div>
+  <p>予定を共有するだけの道具ではありません。電話や口頭でご都合を伝えてこられた方の出欠を幹事が代わりに入力でき、まだ回答していない方が一目で分かります。バスの人数に届かないときのマイカーの相乗り精算も、距離から自動で計算します。</p>
 
-    <p style="margin-top:18px"><b>この下半分が、私の仕事だと思っています。</b>
-       流れを描くだけなら誰でもできますが、
-       <b>どこが本当のボトルネックかは、現場を知らないと分かりません。</b></p>
+  <a class="cta" href="https://dxbears1972-maker.github.io/ohc-calendar/promo/">
+    <span class="t">くわしいご案内・ご利用料金はこちら →</span>
+    <span class="d">できること、導入の流れ、3ヶ月の無料お試し、料金について</span>
+  </a>
+
+  <h2>正直に申し上げておきたいこと</h2>
+
+  <p>この手のものは、作るより<strong>続けるほうがずっと大変</strong>です。</p>
+
+  <ul>
+    <li>高速道路のインターチェンジ別の料金表は73区間あり、ETCの割引はときどき改定されます</li>
+    <li>会員の入退会のたびに名簿の更新が要ります</li>
+    <li>「押しても動かない」というご相談は、機種を変えられたときに必ず起きます</li>
+  </ul>
+
+  <p>一度作れば終わり、というものではありません。会の中の詳しい方がお作りになる場合も、<strong>担当の方をお一人に頼る形にしないこと</strong>が肝心かと存じます。当方がお引き受けしているのは、この「続ける」ほうの部分です。</p>
+
+  <div class="contact">
+    <h2>お問い合わせ</h2>
+    <p>ご相談・ご質問は、メールでお気軽にどうぞ。おおむね2〜3日以内にお返事いたします。</p>
+    <p><a class="mail" href="mailto:dxbears.office@gmail.com">dxbears.office@gmail.com</a></p>
+    <p class="note">屋号：DXベアーズ（福岡県）／個人で運営しております。<br>ご訪問しての対応は承っておりません。オンラインとメールでのご対応となります。</p>
   </div>
-</section>
 
-<section>
-  <div class="wrap">
-    <h2>進め方</h2>
-
-    <ol class="steps">
-      <li><b>ご連絡をいただく</b>
-        <span>メールでも、お電話でも。日にちを決めます。</span></li>
-      <li><b>事前に、お伺いすることを5つほどお送りします</b>
-        <span>お答えを準備いただく必要はありません。見ておいていただくだけで、当日が濃くなります。</span></li>
-      <li><b>30分、お話を伺います</b>
-        <span>こちらからURLをお送りします。押していただくだけで、アプリを入れる必要はありません。
-          LINEのビデオ通話でも、お電話でも構いません。御社でお使いのもので結構です。</span></li>
-      <li><b>数日後、A4を1枚お送りします</b>
-        <span>それで終わりです。こちらから追いかけるご連絡はいたしません。</span></li>
-    </ol>
-
-    <div class="box">
-      <h3>1回の流れに絞らせてください</h3>
-      <p>「受注から出荷まで」あるいは「引き合いからお見積りを出すまで」。
-         <b>気になっておられるほうを1つ</b>選んでいただけると、30分で足ります。
-         全部を伺おうとすると、どれも浅くなってしまいます。</p>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <h2>私について</h2>
-
-    <div class="box">
-      <h3>只隈 吉隆（ただくま よしたか）</h3>
-      <p>製造業の現場に長く関わってきました。
-         在庫・原価・見積りの仕組みを、外注を入れず自分で組んで、
-         自分で直しながら運用してきた人間です。</p>
-      <p style="margin-top:13px">図面が読めます。三角法も、板金の展開も。
-         <b>図面を見て、その部品がいくらでできるはずかを査定したり、
-         原価の中身を分析したり</b>してきました。
-         そのうえでExcelとプログラムが書けます。</p>
-      <p style="margin-top:13px"><b>現場の言葉と、数字の両方が分かる</b>のが、私の立ち位置です。
-         図面が読めないコンサルには見えないところ、
-         数字が読めない職人には見えないところ。そのあいだにいます。</p>
-
-      <div class="ex" style="background:#eef2f6;border-radius:7px;padding:13px 15px;margin-top:15px;font-size:15px;color:var(--gray);line-height:1.85">
-        <b style="color:var(--navy)">できる範囲は、正直に書いておきます</b><br>
-        査定でお役に立てるのは、だいたいこのあたりです。<br>
-        ・SS400、SPHCなどの鋼板もの<br>
-        ・大きさが 3000×3000mm より小さいもの<br>
-        ・年間の数量が 100〜10,000個 くらいのもの<br>
-        橋梁やタンクローリーのタンクのような、大きな一品ものは分かりません。
-        <b style="color:var(--navy)">できないことは、できないと申し上げます。</b>
-      </div>
-    </div>
-
-    <div class="box">
-      <h3>機械が苦手な方に、実際に使ってもらう</h3>
-      <p>福岡県内のハイキングクラブ向けに、山行予定を共有するアプリを作り、
-         いまも運用しています。会員は60代から80代。
-         <b>19名全員が、スマートフォンで予定を見て出欠を押せる状態</b>になりました。</p>
-      <p style="margin-top:13px">立派な仕組みを入れても、誰も使わなければ意味がありません。
-         <b>使われるところまで持っていく</b>のが、いちばん難しいところだと思っています。</p>
-    </div>
-
-    <div class="honest">
-      <h3>正直に申し上げておきます</h3>
-      <p>私はひとりでやっております。大きな会社ではありません。
-         <b>お返しした1枚を見て、「自分たちでやれそうだ」と思われたら、
-         それで結構です。</b>売り込みはいたしません。<br>
-         もし「ここは頼みたい」という部分があれば、そのときにお見積りをお出しします。
-         <b>その先は有料</b>です。先に申し上げておきます。</p>
-    </div>
-  </div>
-</section>
-
-<div class="cta">
-  <div class="wrap">
-    <h2>まずは30分、聞かせてください</h2>
-    <p>「話だけ聞いてみようか」で構いません。<br>
-       ご不要でしたら、そのままご放念ください。</p>
-    <a class="mail" href="mailto:dxbears.office@gmail.com">dxbears.office@gmail.com</a>
-    <p class="note">お電話でも構いません　090-8627-5439<br>
-       平日の日中は本業がございますので、<br>
-       折り返しは夕方以降か土日になることがございます。</p>
-  </div>
-</div>
+</main>
 
 <footer>
-  <div class="wrap">
-    <b>Dxベアーズ</b>　代表　只隈 吉隆<br>
-    福岡県みやま市<br>
-    dxbears.office@gmail.com　／　090-8627-5439
-  </div>
+  <div class="wrap">© DXベアーズ</div>
 </footer>
 
 </body>
