@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /ohc-calendar/
+Allow: /ohc-calendar/promo/
+
+Sitemap: https://dxbears1972-maker.github.io/sitemap.xml
