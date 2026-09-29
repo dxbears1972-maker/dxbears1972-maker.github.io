@@ -2,5 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /ohc-calendar/
 Allow: /ohc-calendar/promo/
+Disallow: /club-calendar/
+Disallow: /ohc-carpool/
 
 Sitemap: https://dxbears1972-maker.github.io/sitemap.xml
