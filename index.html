@@ -209,6 +209,7 @@ html{scroll-padding-top:150px}
   </ul></nav>
 </div></header>
 <script>(function(){var bs=document.querySelectorAll(".gnav .mb");function shut(x){bs.forEach(function(b){if(b!==x){b.setAttribute("aria-expanded","false");document.getElementById(b.getAttribute("aria-controls")).classList.remove("open")}})}bs.forEach(function(b){b.addEventListener("click",function(e){e.stopPropagation();var o=b.getAttribute("aria-expanded")==="true";shut(b);b.setAttribute("aria-expanded",o?"false":"true");document.getElementById(b.getAttribute("aria-controls")).classList.toggle("open",!o)})});document.addEventListener("click",function(e){if(!e.target.closest(".gnav"))shut(null)});document.addEventListener("keydown",function(e){if(e.key==="Escape")shut(null)});})();</script>
+<script>(function(){var mk=[];function lastW(e){var r=document.createRange();r.selectNodeContents(e);var rs=r.getClientRects(),L={},n=0;for(var i=0;i<rs.length;i++){var q=rs[i];if(q.width<1)continue;var k=Math.round(q.bottom);if(!L[k]){L[k]={a:q.left,b:q.right};n++}L[k].a=Math.min(L[k].a,q.left);L[k].b=Math.max(L[k].b,q.right)}if(n<2)return 1e9;var ks=Object.keys(L).map(Number).sort(function(x,y){return x-y}),z=L[ks[ks.length-1]];return z.b-z.a}function bad(e,fs){return lastW(e)<fs*3.2}function run(){mk.forEach(function(e){e.style.textWrap="";e.style.letterSpacing=""});mk=[];document.querySelectorAll("body *").forEach(function(e){var cs=getComputedStyle(e);if(cs.display==="inline"||cs.display==="none")return;var t=false;for(var n=e.firstChild;n;n=n.nextSibling){if(n.nodeType===3&&n.data.trim()){t=true;break}}if(!t)return;var fs=parseFloat(cs.fontSize);if(!bad(e,fs))return;mk.push(e);e.style.textWrap="balance";if(!bad(e,fs))return;e.style.textWrap="";var ls0=parseFloat(cs.letterSpacing)||0;for(var s=1;s<=7;s++){e.style.letterSpacing=(ls0/fs-s*0.01)+"em";if(!bad(e,fs))return}e.style.letterSpacing=""})}var tm;function go(){clearTimeout(tm);tm=setTimeout(run,60)}if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",go);else go();window.addEventListener("load",go);window.addEventListener("resize",go);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(go);})();</script>
 <!-- /ヘッダー -->
 
 <main class="wrap">
@@ -225,7 +226,7 @@ html{scroll-padding-top:150px}
       <li><a href="https://dxbears1972-maker.github.io/ohc-calendar/promo/jirei13.pdf">事例13を読む（報告書の4ページ・PDF）</a></li>
       <li><a href="https://dxbears1972-maker.github.io/ohc-calendar/promo/ryokin/">料金と導入の流れ（まずは3ヶ月、無料でお試し）</a></li>
       <li><a href="https://dxbears1972-maker.github.io/ohc-calendar/promo/mihon/">体験版を触ってみる（登録なし・押してもどこにも届きません）</a></li>
-      <li><a href="#contact">メールで問い合わせる</a></li>
+      <li><a href="https://dxbears1972-maker.github.io/ohc-calendar/promo/toiawase/#contact">お問い合わせフォームを開く</a></li>
     </ul>
     <p class="note">遠方の会でも、導入とご説明はメールとオンラインで行います。お試しだけで終わりにされた場合、費用はかかりません。</p>
   </section>
@@ -268,7 +269,7 @@ html{scroll-padding-top:150px}
     <h2>お問い合わせ</h2>
     <p>ご相談・ご質問は、お問い合わせフォームからお気軽にどうぞ。おおむね3〜5日以内にお返事いたします。</p>
     <p><a class="formbtn" href="https://dxbears1972-maker.github.io/ohc-calendar/promo/toiawase/#contact">お問い合わせフォームを開く</a></p>
-    <p>メールソフトから送る場合：<a class="mail" href="mailto:dxbears.office@gmail.com?subject=%E3%82%AF%E3%83%A9%E3%83%96%E9%81%8B%E5%96%B6%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&amp;body=%0A%E3%82%AF%E3%83%A9%E3%83%96%E5%90%8D%EF%BC%9A%0A%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%E4%BC%9A%E5%93%A1%E6%95%B0%EF%BC%9A%E7%B4%84%E3%80%80%E3%80%80%E5%90%8D%0A%E3%81%94%E8%B3%AA%E5%95%8F%E3%83%BB%E3%81%94%E8%A6%81%E6%9C%9B%EF%BC%9A%0A">dxbears.office@gmail.com</a></p>
+    <p class="note">フォームが使えないときは、メールでも受け付けています：<a href="mailto:dxbears.office@gmail.com?subject=%E3%82%AF%E3%83%A9%E3%83%96%E9%81%8B%E5%96%B6%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6&amp;body=%0A%E3%82%AF%E3%83%A9%E3%83%96%E5%90%8D%EF%BC%9A%0A%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%E4%BC%9A%E5%93%A1%E6%95%B0%EF%BC%9A%E7%B4%84%E3%80%80%E3%80%80%E5%90%8D%0A%E3%81%94%E8%B3%AA%E5%95%8F%E3%83%BB%E3%81%94%E8%A6%81%E6%9C%9B%EF%BC%9A%0A">dxbears.office@gmail.com</a></p>
     <p class="note">屋号：DXベアーズ（福岡県）／個人で運営しております。<br>ご訪問しての対応は承っておりません。オンラインとメールでのご対応となります。</p>
   </div>
 
